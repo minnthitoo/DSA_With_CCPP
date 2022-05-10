@@ -21,7 +21,7 @@ int main(){
         ++frequency[data[j]];
     }
     printf("%s%15s\n", "Number", "Frequency");
-    for (int k = 0; k < FRE_SIZE; ++k) {
+    for (int k = 1; k < FRE_SIZE; ++k) {
         printf("%6d%15d\n", k,  frequency[k]);
     }
 
