@@ -20,8 +20,9 @@ int main(){
     for (int j = 0; j < DATA_SIZE; ++j) {
         ++frequency[data[j]];
     }
+    printf("%s%15s\n", "Number", "Frequency");
     for (int k = 0; k < FRE_SIZE; ++k) {
-        printf("%d\n", frequency[k]);
+        printf("%6d%15d\n", k,  frequency[k]);
     }
 
 
