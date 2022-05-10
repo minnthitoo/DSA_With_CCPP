@@ -6,12 +6,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define DATA_SIZE 100
+#define DATA_SIZE 1000
 #define FRE_SIZE 11
 
 int main(){
     int data[DATA_SIZE];
-    int frequency[FRE_SIZE];
+    int frequency[FRE_SIZE] = {0};
     time_t tm;
     srand(&tm);
     for (int i = 0; i < DATA_SIZE; ++i) {
